@@ -1,0 +1,50 @@
+{
+  "name": "error",
+  "version": "1.2.11",
+  "private": true,
+  "description": "ExtractCSS error",
+  "main": "dist/sc.umd.min.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "prod": "vue-cli-service build --report --target lib --name sc pkge/index.js",
+    "lint": "vue-cli-service lint",
+    "start": "nuxt start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjmnagy/vue-error-2020-08-26.git"
+  },
+  "keywords": [
+    "components"
+  ],
+  "author": "mjmnagy",
+  "license": "SEE LICENSE IN license.txt",
+  "homepage": "https://github.com/mjmnagy/vue-error-2020-08-26.git",
+  "dependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.14.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.1",
+    "@vue/cli-service": "^4.5.4",
+    "css-loader": "^3.6.0",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.14.3",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.12",
+    "vue-flatpickr-component": "^8.1.5",
+    "vue-template-compiler": "^2.6.12",
+    "vue-trix": "^1.1.11"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": []
+}
